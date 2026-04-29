@@ -44,6 +44,43 @@ export default function Home() {
       </section>
       <section className="px-10 py-16 bg-black">
         <section className="px-10 py-20 bg-[#0B0F19]">
+          <section className="px-10 py-20 bg-black">
+            <h2 className="text-4xl font-bold mb-12">Featured Impact</h2>
+
+            <div className="space-y-10">
+
+              <div className="bg-[#111827] p-6 rounded-2xl">
+                <h3 className="text-2xl font-semibold mb-2">
+                  $1.9M Cost Optimization Program
+                </h3>
+                <p className="text-gray-400">
+                  Delivered $1.6M savings through strategic headcount optimization and
+                  an additional $300K through infrastructure transformation initiatives.
+                </p>
+              </div>
+
+              <div className="bg-[#111827] p-6 rounded-2xl">
+                <h3 className="text-2xl font-semibold mb-2">
+                  Global Governance Framework (1200+ FTE)
+                </h3>
+                <p className="text-gray-400">
+                  Designed and implemented a unified governance and reporting framework
+                  across India, China, Poland, Malaysia, and Egypt improving visibility and control.
+                </p>
+              </div>
+
+              <div className="bg-[#111827] p-6 rounded-2xl">
+                <h3 className="text-2xl font-semibold mb-2">
+                  Real-Time KPI & Headcount Dashboard
+                </h3>
+                <p className="text-gray-400">
+                  Built Power BI and Alteryx-driven dashboards delivering real-time insights
+                  across cost, headcount, KPIs and KRIs, improving reporting efficiency by 30%.
+                </p>
+              </div>
+
+            </div>
+          </section>
           <h2 className="text-4xl font-bold mb-10">What I Do</h2>
 
           <div className="grid md:grid-cols-3 gap-8">
