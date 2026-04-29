@@ -42,9 +42,9 @@ export default function Home() {
         </div>
 
       </section>
-      <section className="px-10 py-16 bg-black">
-        <section className="px-10 py-20 bg-[#0B0F19]">
-          <section className="px-10 py-20 bg-black">
+      <section className="px-10 py-16 bg-black animate-fadeUp">
+        <section className="px-10 py-20 bg-[#0B0F19] animate-fadeUp">
+          <section className="px-10 py-20 bg-black animate-fadeUp">
             <h2 className="text-4xl font-bold mb-12">Featured Impact</h2>
 
             <div className="space-y-10">
