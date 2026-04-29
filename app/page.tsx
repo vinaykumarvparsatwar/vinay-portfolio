@@ -20,7 +20,7 @@ export default function Home() {
           alt="Vinay"
           fill
           priority
-          className="object-cover"
+          className="object-contain"
         />
 
         {/* Overlay */}
