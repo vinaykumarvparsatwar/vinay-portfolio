@@ -34,14 +34,39 @@ export default function Home() {
             <span className="block text-gray-400">PARSATWAR</span>
           </h1>
 
-          <p className="mt-6 text-lg text-gray-300 max-w-xl">
-            Governance Leader • AI-Driven Operations • COO Strategy
+          <p className="mt-6 text-lg md:text-xl text-gray-300 max-w-2xl">
+            Delivered $1.9M+ cost savings • Led 1200+ FTE across global markets •
+            Built AI-enabled governance, KPI frameworks, and real-time reporting systems
           </p>
 
         </div>
 
       </section>
+      <section className="px-10 py-16 bg-black">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
 
+          <div>
+            <h2 className="text-3xl font-bold">1200+</h2>
+            <p className="text-gray-400">FTE Managed</p>
+          </div>
+
+          <div>
+            <h2 className="text-3xl font-bold">$1.9M+</h2>
+            <p className="text-gray-400">Cost Savings Delivered</p>
+          </div>
+
+          <div>
+            <h2 className="text-3xl font-bold">30%</h2>
+            <p className="text-gray-400">Reporting Efficiency Gain</p>
+          </div>
+
+          <div>
+            <h2 className="text-3xl font-bold">15+</h2>
+            <p className="text-gray-400">Years Experience</p>
+          </div>
+
+        </div>
+      </section>
     </main>
   );
 }
