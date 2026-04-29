@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar";
 import Image from "next/image";
+import FadeIn from "../components/FadeIn";
 
 export default function Home() {
   return (
