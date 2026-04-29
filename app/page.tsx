@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 
 export default function Home() {
   return (
-    <main className="bg-[#0B0F19] text-white min-h-screen">
+    <main className="bg-gradient-to-br from-[#0B0F19] via-[#0f172a] to-[#020617] text-white min-h-screen">
 
       <Navbar />
 
@@ -18,7 +18,7 @@ export default function Home() {
         </p>
 
         <div className="flex gap-4">
-          <button className="bg-blue-600 px-6 py-3 rounded-xl">
+          <button className="bg-gradient-to-r from-indigo-500 via-purple-500 to-cyan-500 px-6 py-3 rounded-xl shadow-lg hover:scale-105 transition">
             View Experience
           </button>
           <button className="border border-gray-600 px-6 py-3 rounded-xl">

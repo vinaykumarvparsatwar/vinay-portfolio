@@ -2,7 +2,7 @@ import Navbar from "../../components/Navbar";
 
 export default function About() {
     return (
-        <main className="bg-[#0B0F19] text-white min-h-screen">
+        <main className="bg-gradient-to-br from-[#0B0F19] via-[#0f172a] to-[#020617] text-white min-h-screen">
 
             <Navbar />
 

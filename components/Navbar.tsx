@@ -1,6 +1,6 @@
 export default function Navbar() {
     return (
-        <nav className="flex justify-between items-center px-10 py-6 border-b border-gray-800">
+        <nav className="flex justify-between items-center px-10 py-6 border-b border-gray-800 backdrop-blur-md bg-white/5">
             <h1 className="text-sm md:text-base font-semibold tracking-wide">
                 Vinay Parsatwar
                 <span className="hidden md:inline text-gray-400">

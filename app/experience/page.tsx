@@ -40,7 +40,7 @@ export default function Experience() {
     const [openIndex, setOpenIndex] = useState<number | null>(null);
 
     return (
-        <main className="bg-[#0B0F19] text-white min-h-screen">
+        <main className="bg-gradient-to-br from-[#0B0F19] via-[#0f172a] to-[#020617] text-white min-h-screen">
             <Navbar />
 
             <section className="px-10 py-20 max-w-5xl mx-auto">
