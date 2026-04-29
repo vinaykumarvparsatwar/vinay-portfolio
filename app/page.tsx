@@ -43,6 +43,34 @@ export default function Home() {
 
       </section>
       <section className="px-10 py-16 bg-black">
+        <section className="px-10 py-20 bg-[#0B0F19]">
+          <h2 className="text-4xl font-bold mb-10">What I Do</h2>
+
+          <div className="grid md:grid-cols-3 gap-8">
+
+            <div className="bg-[#111827] p-6 rounded-2xl">
+              <h3 className="text-xl font-semibold mb-2">Governance & Strategy</h3>
+              <p className="text-gray-400">
+                Design enterprise governance frameworks, KPI/KRI systems, and executive reporting models.
+              </p>
+            </div>
+
+            <div className="bg-[#111827] p-6 rounded-2xl">
+              <h3 className="text-xl font-semibold mb-2">Transformation & Automation</h3>
+              <p className="text-gray-400">
+                Built real-time headcount, cost, KPI and KRI dashboards using Power BI and automation tools.
+              </p>
+            </div>
+
+            <div className="bg-[#111827] p-6 rounded-2xl">
+              <h3 className="text-xl font-semibold mb-2">Global Operations Leadership</h3>
+              <p className="text-gray-400">
+                Led multi-market teams across India, China, Poland, Malaysia, and Egypt delivering scalable operations.
+              </p>
+            </div>
+
+          </div>
+        </section>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
 
           <div>
