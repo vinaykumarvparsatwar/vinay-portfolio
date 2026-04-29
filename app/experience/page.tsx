@@ -1,6 +1,9 @@
 "use client";
+
 import { useState } from "react";
 import Navbar from "../../components/Navbar";
+import FadeIn from "../../components/FadeIn";
+
 const experiences = [
     {
         company: "HSBC",
@@ -10,8 +13,8 @@ const experiences = [
             "Managed 1200+ FTE across global markets",
             "Delivered $1.6M+ cost savings",
             "Built KPI/KRI governance frameworks",
-            "Led AI & automation-driven reporting transformation"
-        ]
+            "Led AI & automation-driven reporting transformation",
+        ],
     },
     {
         company: "American Express",
@@ -20,8 +23,8 @@ const experiences = [
         details: [
             "Managed VIP customer portfolios",
             "Built performance reporting dashboards",
-            "Analyzed trends and service metrics"
-        ]
+            "Analyzed trends and service metrics",
+        ],
     },
     {
         company: "Dell",
@@ -29,9 +32,9 @@ const experiences = [
         period: "2012 – 2014",
         details: [
             "Managed enterprise financial portfolios",
-            "Performed credit analysis and billing optimization"
-        ]
-    }
+            "Performed credit analysis and billing optimization",
+        ],
+    },
 ];
 
 export default function Experience() {
@@ -46,26 +49,28 @@ export default function Experience() {
 
                 <div className="space-y-6">
                     {experiences.map((exp, index) => (
-                        <div
-                            key={index}
-                            className="bg-[#111827] p-6 rounded-2xl cursor-pointer hover:border hover:border-blue-500 transition"
-                            onClick={() =>
-                                setOpenIndex(openIndex === index ? null : index)
-                            }
-                        >
-                            <h2 className="text-2xl font-semibold">{exp.role}</h2>
-                            <p className="text-gray-400">
-                                {exp.company} • {exp.period}
-                            </p>
+                        <FadeIn key={index}>
+                            <div
+                                className="bg-[#111827] p-6 rounded-2xl cursor-pointer hover:border hover:border-blue-500 transition"
+                                onClick={() =>
+                                    setOpenIndex(openIndex === index ? null : index)
+                                }
+                            >
+                                <h2 className="text-2xl font-semibold">{exp.role}</h2>
 
-                            {openIndex === index && (
-                                <ul className="mt-4 space-y-2 text-gray-300">
-                                    {exp.details.map((item, i) => (
-                                        <li key={i}>• {item}</li>
-                                    ))}
-                                </ul>
-                            )}
-                        </div>
+                                <p className="text-gray-400">
+                                    {exp.company} • {exp.period}
+                                </p>
+
+                                {openIndex === index && (
+                                    <ul className="mt-4 space-y-2 text-gray-300">
+                                        {exp.details.map((item, i) => (
+                                            <li key={i}>• {item}</li>
+                                        ))}
+                                    </ul>
+                                )}
+                            </div>
+                        </FadeIn>
                     ))}
                 </div>
             </section>
